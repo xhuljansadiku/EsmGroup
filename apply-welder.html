@@ -21,6 +21,33 @@
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/newstyle.css">
+
+            <style>
+                body {
+                  background-color: #f8f9fa;
+                }
+                .card {
+                  background-color: #fff;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                  padding: 30px;
+                  margin-top: 50px;
+                }
+                .card h2 {
+                  color: #343a40;
+                }
+                .card p {
+                  color: #6c757d;
+                }
+                .card ul {
+                  color: #6c757d;
+                }
+                .card .form-group label {
+                  color: #343a40;
+                }
+              
+              </style>
+
    </head>
 
    <body>
@@ -38,7 +65,7 @@
     <!-- Preloader Start -->
              <!-- slider Area Start-->
              <div class="slider-area ">
-                <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
+                <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/esm-bg3.png">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-12">
@@ -149,52 +176,73 @@
     
     <main>
 
-        
-<!-- Apply Jobs Start-->
-<section id="jobs" class="py-5 mt-10">
-    <div class="container">
-      <h2 class="text-center mb-5 mt-10">Welder</h2>
-      
-      <!-- Job Listings -->
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-          <div class="card mb-4">
-            <img src="/assets/img/welder.jpg" class="card-img-top" alt="Welder">
-            <div class="card-body">
-              <h5 class="card-title">Welder</h5>
-              <p class="card-text">We are seeking experienced welders to join our team. Duties include interpreting blueprints, operating welding equipment, and ensuring welds meet safety and quality standards.</p>
-              <!-- Apply Form -->
-              <form>
-                <div class="form-group">
-                  <label for="welderName">Name</label>
-                  <input type="text" class="form-control" id="welderName" placeholder="Enter your name">
+   
+
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <div class="card">
+                  <h2 class="text-center mb-4">Welder</h2>
+                  <p>We are seeking a proficient welder to join our team. The ideal candidate should possess a blend of technical expertise, precision, and creativity in metalwork. From interpreting blueprints to executing intricate welds, you will play a pivotal role in fabricating structures that endure. If you're passionate about craftsmanship and enjoy working in a dynamic environment, we invite you to apply.</p>
+          
+                  <h4 class="mt-4">Responsibilities:</h4>
+                  <ul>
+                    <li>Interpret blueprints, drawings, and specifications to determine the appropriate welding process.</li>
+                    <li>Set up welding equipment according to specifications, ensuring safety and efficiency.</li>
+                    <li>Weld components in various positions (vertical, horizontal, overhead) using manual or semi-automatic welding equipment.</li>
+                    <li>Perform inspections to ensure welded structures meet quality standards and specifications.</li>
+                    <li>Conduct repairs or modifications to welded parts as necessary.</li>
+                    <li>Collaborate with engineers, fabricators, and other team members to achieve project goals.</li>
+                    <li>Maintain a clean and organized work environment, adhering to safety protocols and regulations.</li>
+                    <li>Continuously seek opportunities for professional development and skill enhancement.</li>
+                  </ul>
+          
+                  <h4 class="mt-4">Requirements:</h4>
+                  <ul>
+                    <li>Proven experience as a welder, with a strong portfolio of past projects.</li>
+                    <li>Proficiency in various welding techniques, such as MIG, TIG, and ARC welding.</li>
+                    <li>Familiarity with different types of metals and their properties.</li>
+                    <li>Ability to read and interpret blueprints, schematics, and technical drawings.</li>
+                    <li>Excellent hand-eye coordination and attention to detail.</li>
+                    <li>Strong understanding of safety procedures and practices in welding.</li>
+                    <li>Certification in welding techniques or vocational training is preferred but not required.</li>
+                    <li>Physical stamina and dexterity to work in demanding environments and positions.</li>
+                  </ul>
+          
+                  <p class="mt-4">Join us in creating durable, high-quality structures that stand the test of time. <br> <strong>Apply now</strong> to embark on a rewarding career as a skilled welder.</p>
+                  
+                  <!-- Apply Form -->
+                  <form action="#" method="POST" class="mt-4">
+                    <div class="form-group">
+                      <label for="firstName">First Name:</label>
+                      <input type="text" class="form-control" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="lastName">Last Name:</label>
+                      <input type="text" class="form-control" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="cv">Upload CV:</label>
+                      <input type="file" class="form-control-file" id="cv" name="cv">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  <!-- End Apply Form -->
                 </div>
-                <div class="form-group">
-                  <label for="welderEmail">Email</label>
-                  <input type="email" class="form-control" id="welderEmail" placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                  <label for="welderResume">Resume (PDF)</label>
-                  <input type="file" class="form-control-file" id="welderResume">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit Application</button>
-              </form>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3"></div>
-      </div>
-    </div>
-  </section>
-<!-- Apply Jobs  End -->
-
 
     </main>
     
     <footer>
         <!-- Footer Start-->
-        <div class="footer-main">
+        <div class="footer-main mt-5">
                 <div class="footer-area footer-padding">
                     <div class="container">
                         <div class="row  justify-content-between">
